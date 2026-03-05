@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Buenos Aires Subway Route Optimizer (A* Search)
 
 ## Overview
@@ -73,6 +74,10 @@ buenos-aires-subway-route-optimizer
 - Matplotlib
 - Tkinter
 - Datetime
+=======
+# Project
+Graphical application that computes optimal routes between selected Buenos Aires subway stations using the A* search algorithm. The system models a subset of the network as a weighted graph and considers distance, transfers, schedules, and train frequency for efficient path planning.
+>>>>>>> 6c33b5435e0d6c0e738c5f0bcecb0e671b42e822
 
 ---
 
