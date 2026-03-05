@@ -1,12 +1,12 @@
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from datetime import time
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from datetime import time
 
 VELOCIDAD_MEDIA=400  #metros por minuto
 df_coordenas = pd.read_csv(

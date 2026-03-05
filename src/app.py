@@ -1,15 +1,17 @@
 import os
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from datetime import datetime, date, time
 
 import tkinter as tk
-from tkinter import ttk , Toplevel
-from tkinter import font
+from tkinter import ttk, Toplevel, font
+
 from tkcalendar import Calendar
-from datetime import datetime, date, time
-from PIL import Image, ImageTk  
+from PIL import Image, ImageTk
 import customtkinter
-from logic.codigo_aestrella import* 
+
+from logic.codigo_aestrella import *
 from data.elementos_apoyo_interfaz import *
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Inicializamos la variable global
 ventana= None

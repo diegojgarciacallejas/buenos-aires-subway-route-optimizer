@@ -1,8 +1,10 @@
-from logic.grafo import *
-import networkx as nx
-from typing import List
 import math
-from datetime import time, timedelta,date, datetime
+from datetime import datetime, date, time, timedelta
+from typing import List
+
+import networkx as nx
+
+from logic.grafo import *
 
 DIAS_SEMANA = ['L-V', 'L-V', 'L-V', 'L-V', 'L-V', 'S', 'D'] # Ponemos los días de la semana para usarlos en una funcion 
 G=creacion_grafo()  # Creamos el grafo

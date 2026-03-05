@@ -1,63 +1,84 @@
-# Aplicación Subte Buenos Aires
+# Buenos Aires Subway Route Optimizer (A* Search)
 
-## Descripción del Proyecto
+## Overview
 
-Este proyecto consiste en el desarrollo de una **aplicación gráfica para el metro de Buenos Aires (subte)** que calcula el trayecto óptimo entre dos estaciones utilizando el algoritmo de búsqueda **A\***. 
-El objetivo principal es proporcionar una herramienta interactiva y eficiente que permita a los usuarios planificar sus trayectos considerando diversos factores como distancias, transbordos, horarios y frecuencia de trenes.
+This project is a graphical application for the Buenos Aires subway system (Subte) that calculates the optimal route between two selected stations using the **A* (A-star) search algorithm**.
 
-La aplicación incluye:
+The application models a subset of the subway network as a graph where stations are nodes and connections are edges. The algorithm computes the most efficient path between two stations considering factors such as travel distance, transfers, schedules, and train frequency.
 
-- **Algoritmo A***: Optimizado para calcular rutas considerando múltiples variables.
-- **Interfaz gráfica de usuario (GUI)**: Intuitiva y fácil de usar, creada con Tkinter.
-- **Visualización de rutas**: Muestra claramente estaciones, transbordos y caminos elegidos.
+The project demonstrates the practical implementation of heuristic search algorithms applied to real-world transportation networks.
 
-## Características Principales
+---
 
-1. **Optimización de trayectos**:
-   - Determina la ruta más eficiente entre dos estaciones.
-   - Considera parámetros como horarios, frecuencias y distancias.
+## Features
 
-2. **Interfaz gráfica**:
-   - Selección de estaciones de origen y destino mediante menús desplegables.
-   - Visualización de la ruta en el mapa.
-   - Resaltado dinámico de estaciones en el trayecto.
+### Route Optimization
+- Computes the most efficient path between two stations.
+- Considers travel distance, schedules, train frequency, and transfers.
 
-3. **Información adicional**:
-   - Duración del viaje.
-   - Hora de llegada estimada.
-   - Cantidad de transbordos necesarios.
-4. **Memoria**
-   - Explicación del transcurso del proyecto y ademas descripcion de como realizar el ejecutable o de como realizar la ejecucion sin el ejecutable, incluyendo también un drive donde se puede encontrar el proyecto con el ejecutable.
+### Graphical User Interface
+- Built using **Tkinter**.
+- Allows users to select origin and destination stations.
+- Displays the calculated route visually.
+- Highlights the stations included in the selected path.
 
-## Las carpetas entregadas y utlizadas en el pryecto son las siguientes:
+### Travel Information
+- Estimated travel duration
+- Estimated arrival time
+- Number of transfers required
 
-1. **Assets**:
-   - Contiene imágenes y elementos usados para construir la interfaz gráfica.
-   - También contiene el logo de nuestra aplicación llamada "subte".
+---
 
-2. **Data**:
-   - Contiene el csv con las coordenadas de cada estación, que será utilizado en el algoritmo.
-   - Contiene el main.
-   - Contiene un diccionario utilizado para ubicar cada botón en su lugar en la interfaz gráfica.
+## Project Structure
+buenos-aires-subway-route-optimizer
+│
+├── src/
+│ ├── app.py # Main application entry point
+│ │
+│ ├── data/ # Subway data and interface helpers
+│ │ ├── estaciones_buenos_aires_contildes.csv
+│ │ ├── elementos_apoyo_interfaz.py
+│ │ └── init.py
+│ │
+│ ├── logic/ # Graph construction and A* algorithm
+│ │ ├── codigo_aestrella.py
+│ │ ├── grafo.py
+│ │ └── init.py
+│
+├── assets/ # Images and graphical resources
+│ ├── icons/
+│ │ └── logo_subte.ico
+│ │
+│ └── images/
+│ ├── fondo.jpg
+│ ├── logo_subte.png
+│ └── train_no_background.png
+│
+├── docs/
+│ └── Memoria.pdf # Project report
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
 
-3. **logic**:
-   - Por un lado incluye la construcción del grafo con todas las estaciones, los horarios y las frecuencias.
-   - Por otro lado incluye el código utilizado para implementar el algoritmo A*, con las funciones utilizadas para su uso.
 
-4. **app**:
-   - Código usado para crear la interfaz gráfica
+---
 
+## Technologies Used
 
-## Requisitos
+- Python
+- NetworkX
+- Pandas
+- NumPy
+- Matplotlib
+- Tkinter
+- Datetime
 
-- Librerías utilizadas:
-  - `NetworkX`
-  - `Matplotlib`
-  - `NumPy`
-  - `Pandas`
-  - `Tkinter`
-  - `Datetime`
-  - `Math`
-  - `Typing`
+---
 
+## Installation
 
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
