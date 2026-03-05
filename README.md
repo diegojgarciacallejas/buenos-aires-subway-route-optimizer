@@ -30,7 +30,7 @@ The project demonstrates the practical implementation of heuristic search algori
 ---
 
 ## Project Structure
-'''
+```text
 buenos-aires-subway-route-optimizer
 │
 ├── src/
@@ -61,7 +61,7 @@ buenos-aires-subway-route-optimizer
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
+```
 ---
 
 ## Technologies Used
