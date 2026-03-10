@@ -8,6 +8,12 @@ The application models a subset of the subway network as a graph where stations 
 
 The project demonstrates the practical implementation of heuristic search algorithms applied to real-world transportation networks.
 
+## Screenshots
+
+Main application interface:
+
+![Application Interface](assets/images/interfaz.png)
+
 ---
 
 ## Features
@@ -53,7 +59,9 @@ buenos-aires-subway-route-optimizer
 │ └── images/
 │ ├── fondo.jpg
 │ ├── logo_subte.png
-│ └── train_no_background.png
+│ ├── train_no_background.png
+│ └── interfaz.png
+
 │
 ├── docs/
 │ └── Memoria.pdf # Project report
