@@ -8,11 +8,6 @@ The application models a subset of the subway network as a graph where stations 
 
 The project demonstrates the practical implementation of heuristic search algorithms applied to real-world transportation networks.
 
-## Screenshots
-
-Main application interface:
-
-![Application Interface](assets/images/interfaz.png)
 
 ---
 
@@ -115,6 +110,11 @@ python src/app.py
 4. The application computes the optimal route using the A* algorithm.
 5. The interface displays the optimal route, travel time, and number of transfers.
 
+## Screenshots
+
+Main application interface:
+
+![Application Interface](assets/images/interfaz.png)
 --- 
 ## Authors
 
