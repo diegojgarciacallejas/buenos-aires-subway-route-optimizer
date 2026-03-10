@@ -1,4 +1,4 @@
-# Buenos Aires Subway Route Optimizer (A* Search)
+# Buenos Aires Subway Route Optimizer 🚇
 
 ## Overview
 
@@ -97,3 +97,30 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+```
+## Running the Application
+
+From the root of the repository run:
+
+```bash
+python src/app.py
+```
+
+## Example Usage
+
+1. Select the origin station.
+2. Select the destination station.
+3. Choose the desired departure time.
+4. The application computes the optimal route using the A* algorithm.
+5. The interface displays the optimal route, travel time, and number of transfers.
+
+--- 
+## Authors
+
+- Diego J. García Callejas
+- Pablo de Tarso Pedraz García
+- Manuel Arce Losada
+- Pedro Álvaro Martínez Gutiérrez
+- Mario Martín Muñoz
+- Héctor Fernández Cano 
