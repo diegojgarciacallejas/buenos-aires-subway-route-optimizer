@@ -96,6 +96,8 @@ buenos-aires-subway-route-optimizer
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+```
+
 ---
 
 ## Technologies Used
@@ -153,8 +155,6 @@ Main application interface:
 ![Application Interface](assets/images/interfaz.png)
 
 --- 
-
-## Documentatin 
 
 ## Documentation
 
