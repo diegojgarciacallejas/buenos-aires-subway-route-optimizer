@@ -1,8 +1,11 @@
 # Buenos Aires Subway Route Optimizer 🚇
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Algorithm](https://img.shields.io/badge/Algorithm-A*%20Search-orange)
-![Status](https://img.shields.io/badge/status-academic%20project-green)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![Algorithm](https://img.shields.io/badge/Algorithm-A*%20Search-FF6B6B?logo=starship&logoColor=white)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter%20%2B%20CustomTkinter-3776AB?logo=python&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Modeling-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 Graphical application that computes optimal routes between selected Buenos Aires subway stations using the **A\*** search algorithm.
 
